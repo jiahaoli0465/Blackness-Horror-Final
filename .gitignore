@@ -1,0 +1,12 @@
+# Track only HTML, JavaScript, and CSS (plus this file).
+*
+
+!.gitignore
+
+# Allow traversal into subdirectories (nothing under them matches below).
+!*/
+
+# Allowed file types in any directory.
+!**/*.html
+!**/*.js
+!**/*.css
